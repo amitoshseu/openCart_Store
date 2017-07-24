@@ -1,0 +1,3 @@
+2017-06-22 6:53:08 - PHP Notice:  Undefined variable: heading_title in /var/www/html/Store/catalog/controller/extension/module/featured.php on line 1
+2017-06-22 6:53:08 - PHP Notice:  Undefined variable: products in /var/www/html/Store/catalog/controller/extension/module/featured.php on line 3
+2017-06-22 6:53:08 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/Store/catalog/controller/extension/module/featured.php on line 3

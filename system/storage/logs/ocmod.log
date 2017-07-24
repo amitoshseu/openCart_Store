@@ -1,0 +1,108 @@
+2017-06-14 20:23:12 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Spinner Product
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $entry_qty; ?></label>
+LINE: 300
+CODE: <input type="text" name="quantity" value="<?php echo $minimum; ?>" size="2" id="input-quantity" class="form-control" />
+LINE: 301
+CODE: <a href=""
+LINE: 320
+CODE: <?php echo $footer; ?>
+LINE: 615
+----------------------------------------------------------------
+2017-06-14 20:27:48 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Spinner Product
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $entry_qty; ?></label>
+LINE: 300
+CODE: <input type="text" name="quantity" value="<?php echo $minimum; ?>" size="2" id="input-quantity" class="form-control" />
+LINE: 301
+CODE: <a href=""
+LINE: 320
+CODE: <?php echo $footer; ?>
+LINE: 615
+----------------------------------------------------------------
